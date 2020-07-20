@@ -33,7 +33,7 @@ Page({
       success(res) {
         openid = res.data;
         wx.request({
-          url: "https://api.sunxiaochuan258.com/ChatAccounting/inquiry/list",
+          url: "", //填写自己项目的账单接口
           data: {
             openid: openid
           },

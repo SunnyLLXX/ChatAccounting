@@ -27,7 +27,7 @@ Page({
 
         //账单列表加载
      wx.request({
-      url: "https://api.sunxiaochuan258.com/ChatAccounting/inquiry/statistic",
+      url: "", //填写自己的项目账单接口
       data: {
         openid: openid,
         month: e.detail.value
